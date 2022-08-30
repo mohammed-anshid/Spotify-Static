@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+    
+}
+
+/* NavBar */
+
+.nav{
+    color: #fff;
+    background-color: black;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.left-side{
+    width: 55%;
+}
+.right-side{
+   width: 45%;
+   justify-content: space-between;
+}
+.right-side a{
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    margin-left: 36px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Logo{
+    width: 133px;
+    margin-left: 101px;
+}
+/* Banner */
+.Banner{
+    height: 600px;
+    display: flex;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+.bnr-pic{
+    width: 267px;
+    height: 445px;
+    margin-left: 60px;
+    border-top: 56px solid #fff;
+    border-left: 7px solid #fff;
+    border-right: 7px solid #fff;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.left-banner{
+    position: relative;
+    width: 40%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.right-banner p{
+    font-size: 52px;
+    color: #fff;
+    margin-top: 178px;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+.get-btn{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    width: 185px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    font-weight: 800;
+    font-size: 12px;
+
+}
+/* Features */
+.features{
+    height: 510px;
+}
+.list{
+    display: flex;
+}
+.list li{
+    text-align: center;
+    width: 45%;
+    
+}
+.ftr-text{
+    font-size: 15px;
+} 
+li::marker{
+    color: #fff;
+}
+.ftr-pic1 img{
+    height: 140px;
+}
+.ftr-pic2 img{
+    height: 140px;
+}
+.ftr-pic3 img{
+    height: 140px;
+}
+.ftr-pic4 img{
+    height: 140px;
+}
+.ftr-text1{
+    font-size: 19px;
+    font-weight: 600;
+}
+.ftr-head{
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 800;
+}
+/* Requirement */
+.requirement{
+    height: 480px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.require{
+    padding-top: 176px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+}
+/* Questions */
+.questions{
+    height: 503px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.qns-head{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.qns{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.qns-body{
+    margin-top: 80px;
+}
+.qns-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.material-symbols-outlined{
+    margin: end;
+    margin-top: 20px;
+}
+/* Sub-footer */
+
+.conclution{
+    height: 550px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+.cld-text{
+    position: absolute;
+    top: 105px;
+    left: 420px
+}
+.play{
+    font-size: 80px;
+    font-weight: 800;
+    color: #ffff;
+}
+.sfy-btn{
+    color: black;
+    background-color: #fff;
+    width: 185px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 350px;
+    margin-left: 535px;
+}
+/* Footer */
+
+.footer{
+    height: 600px;
+    background-color: black;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.ftr-details{
+    display: flex;
+    position: relative;
+    
+}
+.ftr-logo{
+    width: 150px;
+    /* top: 0px;
+    position: relative; */
+}
+.footer-logo{
+    width: 225px;
+    height: 346px;
+    top: 94px;
+    position: relative;
+}
+.ftr-1{
+    width: 225px;
+    height: 346px;
+    top: 105px;
+    position: relative;
+}
+.ftr-2{
+    width: 225px;
+    height: 346px;
+    top: 105px;
+    position: relative;
+}
+.ftr-3{
+    width: 225px;
+    height: 346px;
+    top: 105px;
+    position: relative;
+}
+.social-media {
+    width: 225px;
+    height: 346px;
+    top: 125px;
+    position: relative;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin-left: 285px;
+}
+.sc-1{
+    font-size: 30px;
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #222326;
+}
+.fa-brands{
+    margin-top: 15px;
+}
+.ftr-1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 50px;
+}
+.ftr-2 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 50px
+}
+.ftr-3 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 50px
+}
+.last{
+    margin-top: 170px;
+    display:flex;
+
+}
+.last-right{
+    margin-left: auto;
+}
+.last-left a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.last-right a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 15px;
+}
+.last-left a:hover{
+    color: #1ed760;
+}
+.last-right a:hover{
+    color: #1ed760;
+}
+.ftr-1 a:hover{
+    color: #1ed760;
+}
+.ftr-2 a:hover{
+    color: #1ed760;
+}
+.ftr-3 a:hover{
+    color: #1ed760;
+}
+.fa-brands:hover{
+    color: #1ed760;
+}
+.sfy-btn:hover{
+    width: 200px;
+    height: 58px;
+    font-size: 14px;
+}
+.get-btn:hover{
+    width: 200px;
+    height: 58px;
+    font-size: 14px;
+}
